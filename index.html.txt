@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Replica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-top">
+
+    <div class="nav-logo">amazon<span>.in</span></div>
+
+    <div class="nav-address">
+      <small>Delivering to</small>
+      <strong>India</strong>
+    </div>
+
+    <div class="nav-search">
+      <select>
+        <option>All</option>
+      </select>
+      <input type="text" placeholder="Search Amazon.in">
+      <button>🔍</button>
+    </div>
+
+    <div class="nav-account">
+      <small>Hello, sign in</small>
+      <strong>Account & Lists</strong>
+    </div>
+
+    <div class="nav-orders">
+      <small>Returns</small>
+      <strong>& Orders</strong>
+    </div>
+
+    <div class="nav-cart">🛒 Cart</div>
+  </div>
+
+  <div class="nav-bottom">
+    <span>☰ All</span>
+    <span>Fresh</span>
+    <span>Amazon miniTV</span>
+    <span>Sell</span>
+    <span>Best Sellers</span>
+    <span>Mobiles</span>
+    <span>Customer Service</span>
+  </div>
+</header>
+
+<section class="hero"></section>
+
+<section class="shop">
+  <div class="box">
+    <h2>Appliances</h2>
+    <img src="https://via.placeholder.com/300">
+    <a>See more</a>
+  </div>
+
+  <div class="box">
+    <h2>Fashion</h2>
+    <img src="https://via.placeholder.com/300">
+    <a>See more</a>
+  </div>
+
+  <div class="box">
+    <h2>Electronics</h2>
+    <img src="https://via.placeholder.com/300">
+    <a>See more</a>
+  </div>
+
+  <div class="box">
+    <h2>Home & Kitchen</h2>
+    <img src="https://via.placeholder.com/300">
+    <a>See more</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">Back to top</div>
+  <div class="footer-bottom">© Amazon Replica – HTML & CSS</div>
+</footer>
+
+</body>
+</html>
