@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #e3e6e6;
+}
+
+/* NAVBAR */
+.nav-top {
+  background: #131921;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f08804;
+}
+
+.nav-logo span {
+  color: white;
+}
+
+.nav-search {
+  display: flex;
+  flex: 1;
+}
+
+.nav-search select,
+.nav-search input {
+  padding: 8px;
+  border: none;
+}
+
+.nav-search button {
+  background: #febd69;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.nav-cart {
+  font-weight: bold;
+}
+
+.nav-bottom {
+  background: #232f3e;
+  color: white;
+  padding: 8px 15px;
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  height: 350px;
+  background: url("https://via.placeholder.com/1500x350") center/cover no-repeat;
+}
+
+/* SHOP SECTION */
+.shop {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.box {
+  background: white;
+  padding: 15px;
+}
+
+.box img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.box a {
+  color: #007185;
+  font-size: 14px;
+}
+
+/* FOOTER */
+.footer-top {
+  background: #37475a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-bottom {
+  background: #131921;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
